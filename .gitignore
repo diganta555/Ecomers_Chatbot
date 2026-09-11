@@ -1,0 +1,26 @@
+# Environment / secrets - NEVER commit these
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# uv - note: commit uv.lock itself for reproducible installs, don't ignore it
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/config.toml
